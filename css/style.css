@@ -1,0 +1,138 @@
+
+.navbar{
+    opacity: 0.9;
+}
+
+/* ====== HOME PAGE =============== */
+#home-section{
+    background-image: url(../img/hero-img.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.1)
+}
+.explore{
+    margin-top: 100px;
+    box-shadow: 3px #ddd solid;
+}
+/*  ============ Home-section =========== */
+.big-icon{
+    font-size: 40px;
+}
+
+.link-buttons{
+    box-shadow: 3px #ddd solid;
+}
+.center-content{
+    margin-top: 105px;
+    margin-left: 58px;
+}
+.designed-content{
+    background-image: url(../img/bg-design.png);
+    background-repeat: no-repeat;
+    min-height: 350px;
+    background-size: contain;
+    background-position: 118px -40px;
+}
+.app-screen{
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    top: 85px;
+    left: 286px;
+}
+.designed-content-2{
+    background-image: url(../img/design.png);
+    background-repeat: no-repeat;
+    min-height: 350px;
+    background-size: contain;
+    background-position: 266px 84px;
+}
+.app-screen-2{
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    top: 59px;
+    left: 232px;
+}
+.designed-content-3{
+    background-image: url(../img/white-snowfall.png);
+    background-repeat: no-repeat;
+    min-height: 350px;
+    background-size: contain;
+    background-position: 266px 84px;
+}
+.cap-man{
+    width: 234px;
+    height: 250px;
+    position: absolute;
+    top: 53px;
+    left: 226px;
+}
+
+/* ================ ABOUT PAGE ====================== */
+
+/* =========  CAROUSEL ========== */
+.carousel-item{
+    height: 450px;
+ 
+}
+.carousel img{
+
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+/* ==============TESTIMONIAL============ */
+#slider2{
+    height: 100px;
+}
+.test-slide .carousel-inner{
+    height: 100px;
+}
+
+/* ============ SERVICES PAGE==================== */
+
+#header{
+    background-image: url(../img/snow-about.jpg);
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -201px;
+}
+
+.contact-heading{
+    margin-top: 200px;
+}
+.list-icon{
+    font-size: 1opx;
+}
+.small-icon{
+    font-size: 20px;
+}
+
+/* ========== CONTACT PAGE ========== */
+#contact-header{
+    background-image: url(../img/house.png);
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -201px;
+}
+.bg-heading{
+    margin-top: 200px;
+}
+.member{
+    width: 100px;
+    height: 100px;
+}
